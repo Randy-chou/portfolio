@@ -6,3 +6,11 @@
 .nav-link:hover, .text-decoration-none:hover {
     color: #6b4a19 !important;
 }
+
+.active {
+    background-color: #272727; 
+}
+
+.navbar-brand {
+    font-family: 'Monoton', cursive;
+}

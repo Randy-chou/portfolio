@@ -1,19 +1,7 @@
-import React from 'react';
-import Header from './components/Header';
-import Project from './components/pages/Project';
-import Footer from './components/Footer';
-import './styles/App.css';
+import React from "react";
+import PortfolioContainer from "./components/Portfolio";
 
-function App() {
-  return (
-    <main className="min-vh-100" id = "mainBody">
-      <Header/>
-      <div className="h-auto">
-        <Project/>
-      </div>
-      <Footer/>
-    </main>
-  );
-}
+const App = () => <PortfolioContainer />;
 
 export default App;
+

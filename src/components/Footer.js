@@ -3,7 +3,8 @@ import React from 'react';
 function Footer() {
     let style = {
         background: {
-            background: "#1f1f1f"
+            background: "#1f1f1f",
+            heightMin: "100px"
         },
         a: {
             color: "#A97142",
@@ -12,7 +13,7 @@ function Footer() {
     }
 
     return (
-        <section className="conatiner-fluid d-flex justify-content-center" style={style.background}>
+        <section className="conatiner-fluid d-flex flex-column flex-lg-row align-items-center justify-content-center" style={style.background}>
             <a href="https://github.com/Randy-chou" target="_blank" rel="noreferrer" className ="text-decoration-none p-3" style={style.a}>
                 Github
                 <i className="fab fa-github ps-1"></i>
