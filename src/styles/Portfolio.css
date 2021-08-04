@@ -9,6 +9,11 @@
 
 .active {
     background-color: #272727; 
+    box-shadow: 10px 0 5px -5px rgb(0, 0, 0);
+}
+
+.active:hover{
+    color: #B08D57 !important;
 }
 
 .navbar-brand {
