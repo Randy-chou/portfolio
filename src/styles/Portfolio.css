@@ -3,7 +3,7 @@
     color: #B08D57;
 }
 
-.nav-link:hover, .text-decoration-none:hover {
+.nav-link:hover, .text-decoration-none:hover, .hoverable:hover {
     color: #6b4a19 !important;
 }
 
