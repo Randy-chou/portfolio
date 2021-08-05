@@ -1,35 +1,44 @@
-import React from 'react';
+import React, { useState } from 'react';
 import ReactCardFlip from 'react-card-flip';
 
-class Project extends React.Component {
-    constructor() {
-        super();
-        this.state = {
-            isFlipped: false
-        };
-        this.handleClick = this.handleClick.bind(this);
-    }
+function Project() {
+    const [isFlipped, setFlipped] = useState(false);
 
-    handleClick(e) {
+    const handleClick = (e) => {
         e.preventDefault();
-        this.setState(prevState => ({ isFlipped: !prevState.isFlipped }));
+        setFlipped(!isFlipped);
     }
 
-    render() {
-        return (
-            <ReactCardFlip isFlipped={this.state.isFlipped} flipDirection="vertical">
-                <div>
-                    This is the front of the card.
-                    <button onClick={this.handleClick}>Click to flip</button>
+    const style = {
+        card : {
+            width: "300px",
+            height: "400px",
+            background: "#333333",
+        },
+        back : {
+            width: "300px",
+            height: "400px",
+            background: "#1f1f1f",
+            boxShadow: "inset 0 0 10px #000000"
+        },
+    }
+
+    return (
+        <section style={style.back}>
+            <ReactCardFlip isFlipped={isFlipped}>
+                <div style={style.card}>
+                    front
+                    <img src={window.location.origin + '/portfolio/assets/images/blog.png'} alt="project"></img>
+                    <button onClick={handleClick}>Click to flip</button>
                 </div>
 
-                <div>
-                    This is the back of the card.
-                    <button onClick={this.handleClick}>Click to flip</button>
+                <div style={style.card}>
+                    back
+                    <button onClick={handleClick}>Click to flip</button>
                 </div>
             </ReactCardFlip>
-        )
-    }
+        </section>
+    )
 }
 
 export default Project;
