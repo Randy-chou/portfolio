@@ -11,7 +11,7 @@ function Navigation({ currentPage, handlePageChange }) {
         },
         li: {
             color: "#B08D57", 
-            fontSize: 19
+            fontSize: 19,
         }
     }
 
@@ -26,22 +26,22 @@ function Navigation({ currentPage, handlePageChange }) {
                     <div className="collapse navbar-collapse justify-content-end align-items-end" id="navbarNav">
                         <ul className="navbar-nav pe-3">
                             <li className="nav-item">
-                                <a className={currentPage === 'About' ? 'nav-link active p-3 rounded-top' : 'nav-link p-3'} href="#about" style={style.li} onClick={() => handlePageChange('About')}>
+                                <a className={currentPage === 'About' ? 'nav-link active p-3' : 'nav-link p-3'} href="#about" style={style.li} onClick={() => handlePageChange('About')}>
                                     About Me
                                 </a>
                             </li>
                             <li className="nav-item">
-                                <a className={currentPage === 'Project' ? 'nav-link active p-3 rounded-top' : 'nav-link p-3'} href="#project" style={style.li} onClick={() => handlePageChange('Project')}>
+                                <a className={currentPage === 'Project' ? 'nav-link active p-3' : 'nav-link p-3'} href="#project" style={style.li} onClick={() => handlePageChange('Project')}>
                                     Projects
                                 </a>
                             </li>
                             <li className="nav-item">
-                                <a className={currentPage === 'Resume' ? 'nav-link active p-3 rounded-top' : 'nav-link p-3'} href="#resume" style={style.li} onClick={() => handlePageChange('Resume')}>
+                                <a className={currentPage === 'Resume' ? 'nav-link active p-3' : 'nav-link p-3'} href="#resume" style={style.li} onClick={() => handlePageChange('Resume')}>
                                     Resume
                                 </a>
                             </li>
                             <li className="nav-item">
-                                <a className={currentPage === 'Contact' ? 'nav-link active p-3 rounded-top' : 'nav-link p-3'} href="#contact" style={style.li} onClick={() => handlePageChange('Contact')}>
+                                <a className={currentPage === 'Contact' ? 'nav-link active p-3' : 'nav-link p-3'} href="#contact" style={style.li} onClick={() => handlePageChange('Contact')}>
                                     Contact
                                 </a>
                             </li>

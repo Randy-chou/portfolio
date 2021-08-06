@@ -13,7 +13,7 @@ function Footer() {
     }
 
     return (
-        <section className="conatiner-fluid d-flex flex-column flex-lg-row align-items-center justify-content-center" style={style.background}>
+        <section className="conatiner-fluid d-flex flex-column flex-lg-row align-items-center justify-content-center p-5" style={style.background}>
             <a href="https://github.com/Randy-chou" target="_blank" rel="noreferrer" className ="text-decoration-none p-3" style={style.a}>
                 Github
                 <i className="fab fa-github ps-1"></i>

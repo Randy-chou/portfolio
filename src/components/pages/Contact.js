@@ -111,7 +111,7 @@ function Contact() {
     }
 
     return (
-        <div>
+        <div className="mt-5">
             <section className="container p-4" style={style.info}>
                 <p style={style.a}>Phone Number : 385-259-3665</p>
                 <a href="mailto:Randychou2020@gmail.com" className="text-decoration-none" style={style.a}>
