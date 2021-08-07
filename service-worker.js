@@ -17,7 +17,6 @@ const FILES_TO_CACHE = [
     "./assets/images/webpage_capture.png",
     "./assets/images/placeholder-01.jfif",
     "./assets/other/Resume_Randy.pdf",
-    "./static/js/bundle.js",
   ];
   
   const STATIC_CACHE = "static-cache-v1";
