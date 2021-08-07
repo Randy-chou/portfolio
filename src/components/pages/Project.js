@@ -19,7 +19,7 @@ function Project() {
             desc: "This is a web app",
             imglink: "/assets/images/note.png",
             gitlink: "https://github.com/Randy-chou/note_taker.git",
-            deploy: "https://secure-fortress-85832.herokuapp.com/",
+            deploy: "https://sheltered-scrubland-86582.herokuapp.com/",
             tech: "HTML, Javascript, CSS",
         },
         {
@@ -28,7 +28,7 @@ function Project() {
             desc: "This is a web app",
             imglink: "/assets/images/blog.png",
             gitlink: "https://github.com/Randy-chou/Tech_Blog_V1.git",
-            deploy: "https://randy-chou.github.io/crumbs-food-app/",
+            deploy: "https://secure-fortress-85832.herokuapp.com/",
             tech: "HTML, Javascript, CSS",
         },
         {

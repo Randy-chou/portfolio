@@ -41,9 +41,13 @@
 }
 
 p, h1, h3, h4, label, a {
-    font-size: 19px;
     font-family: 'Montserrat', sans-serif;
 }
+
+p, label, a {
+    font-size: 19px;
+}
+
 .nav-link {
     font-family: 'Montserrat', sans-serif;
 }
